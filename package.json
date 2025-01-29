@@ -1,0 +1,45 @@
+{
+  "name": "e-commerce-api",
+  "version": "1.0.0",
+  "description": "E-commerce Apis using nodejs express",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server/index.js",
+    "debug": "ndb server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Basel-12/E-commerce-API.git"
+  },
+  "author": "Basel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Basel-12/E-commerce-API/issues"
+  },
+  "homepage": "https://github.com/Basel-12/E-commerce-API#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.5",
+    "multer": "^1.4.5-lts.1",
+    "ndb": "^1.1.5",
+    "nodemailer": "^6.9.16",
+    "redis": "^4.7.0",
+    "sharp": "^0.30.0",
+    "slugify": "^1.6.6",
+    "stripe": "^17.6.0",
+    "uninstall": "^0.0.0",
+    "validator": "^13.12.0",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
